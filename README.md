@@ -11,6 +11,6 @@ This project is my personal introduction page for CS 4241, showcasing my backgro
 - Semantic HTML tags: Structured the page with `<header>`, `<main>`, `<section>`, `<footer>`, and `<a>` instead of generic `<div>` tags, making the document structure meaningful.
 
 ## Design Achievements
-- Color palette: Built a custom 5-color palette on color.adobe.com — `#0021FC`, `#FCE000`, `#FCA300`, `#3E477D`, `#7D763E` — and used all five across the page (background, headings, links, borders). I checked contrast ratios with WebAIM's contrast checker so that text colors (yellow/orange on the dark navy background) stay readable, while the two lower-contrast colors (blue, olive) are used only for decorative borders.
+- Color palette: Built a custom 5-color palette on color.adobe.com (`#0021FC`, `#FCE000`, `#FCA300`, `#3E477D`, `#7D763E`) and used all five across the page (background, headings, links, borders). I checked contrast ratios with WebAIM's contrast checker so that text colors (yellow/orange on the dark navy background) stay readable, while the two lower-contrast colors (blue, olive) are used only for decorative borders.
   - Palette screenshot: ![color palette](palette.png)
 - Google Font: Used "IBM Plex Sans Devanagari" from Google Fonts as the site's primary typeface.
