@@ -23,8 +23,17 @@ const server = http.createServer( function( request,response ) {
 
 server.listen( process.env.PORT || port )
 
+const contentTypes = {
+  '.html': 'text/html',
+  '.css':  'text/css',
+  '.js':   'text/javascript',
+  '.png':  'image/png'
+}
+
 const sendFile = function( response, filename ) {
+   const ext = filename.slice( filename.lastIndexOf( '.' ) )
    fs.readFile( filename, function( err, content ) {
+     response.writeHead( 200, { 'Content-Type': contentTypes[ ext ] || 'text/plain' } )
      response.end( content, 'utf-8' )
    })
 }
