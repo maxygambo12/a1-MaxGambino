@@ -14,3 +14,6 @@ This project is my personal introduction page for CS 4241, showcasing my backgro
 - Color palette: Built a custom 5-color palette on color.adobe.com (`#0021FC`, `#FCE000`, `#FCA300`, `#3E477D`, `#7D763E`) and used all five across the page (background, headings, links, borders). I checked contrast ratios with WebAIM's contrast checker so that text colors (yellow/orange on the dark navy background) stay readable, while the two lower-contrast colors (blue, olive) are used only for decorative borders.
   - Palette screenshot: ![color palette](palette.png)
 - Google Font: Used "IBM Plex Sans Devanagari" from Google Fonts as the site's primary typeface.
+
+## AI Usage
+I used Claude (Anthropic) as an AI assistant while working on this assignment. Specifically, I used it to help debug issues with my server not correctly serving CSS/JS files (missing Content-Type headers) and a Render deployment issue where auto-deploy wasn't picking up my latest commits. I also used it for general ideas and suggestions on how to structure my CSS styling (color usage, contrast/accessibility considerations, layout rules) and semantic HTML structure. All final code and design decisions were reviewed and written by me.
