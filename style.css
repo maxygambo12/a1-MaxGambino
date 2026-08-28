@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&display=swap');
+.ibm-plex-sans-devanagari-thin {
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-sans-devanagari-extralight {
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-sans-devanagari-light {
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-sans-devanagari-regular {
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  background-color: #3E477D;
+  color: #F2F2F2;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header {
+  border-bottom: 3px solid #FCE000;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #FCE000;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #FCA300;
+  border-bottom: 2px solid #0021FC;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+main {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+main.loaded {
+  opacity: 1;
+}
+
+ul li {
+  list-style-type: square;
+  padding: 4px 0;
+  border-left: 3px solid #7D763E;
+  padding-left: 10px;
+}
+
+a {
+  color: #FCE000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FCA300;
+  transition: color 0.3s ease;
+}
+
+footer {
+  border-top: 2px solid #7D763E;
+  padding-top: 10px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
